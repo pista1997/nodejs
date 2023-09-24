@@ -16,7 +16,6 @@ const { ObjectId } = mongoose.Types;
 main().catch(err => console.log(err));
 
 let defaultItems = [];
-let workItems = [];
 
 async function main() {
     try {
